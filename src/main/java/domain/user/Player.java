@@ -13,9 +13,10 @@ public class Player {
     private final double bettingMoney;
     private final List<Card> cards = new ArrayList<>();
 
-    public Player(String name, double bettingMoney) {
+//    public Player(String name, double bettingMoney) {
+    public Player(String name) {
         this.name = name;
-        this.bettingMoney = bettingMoney;
+        this.bettingMoney = 0;
     }
 
     public void addCard(Card card) {
